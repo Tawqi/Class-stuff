@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "MyCustomFont",  "popins", "Roboto", sans-serif;
+    font-weight: bold;
+}
+.packs {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+}
+.p {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: rgb(236, 236, 236);
+    padding: 3rem;
+    border-radius: 14px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.p div {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+h1 {
+    font-size: 3rem;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+li {
+    list-style: none;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: .4rem 0;
+    border-bottom: 1px solid black;
+}
+button {
+    font-size: 1.4rem;
+    padding: 1rem 0.5rem;
+    background-color: rgba(0, 0, 0, 0.116);
+    transition: transform .2s;
+    border-radius: 14px;
+    border: none;
+}
+button:hover {
+    color: white;
+    background-color: black;
+    transform: scale(1.1);
+}
