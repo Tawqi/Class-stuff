@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         h1{color:red;}
+
+         #tagline{
+            font-size:2.5em;
+         }
+
+        .blue-heading{
+            color:blue;
+        }
+
+    
+        #bottom h1{
+            color:green;
+        }
+      
+        #bottom>h1{
+            color:brown;
+        }
+
+        /* #bottom section>h1{
+
+        } */
+
+        #bottom+h1{
+            color:black;
+        }
+    </style>
+   
+</head>
+<body>
+    <div id="top">
+        <h1 id="tagline">Hello CSS</h1>
+        <h2>This is heading two</h2>
+        <h1 class="blue-heading">Second heading one</h1>
+        <h1>Hello CSS</h1>
+        <h1 class="blue-heading">Second heading one</h1>
+    </div>
+    <h1>This the last line of my website</h1>
+    <div id="bottom">
+        <h1>
+            This is father
+        </h1>
+        <section>
+            <h1>This is grand child</h1>
+        </section>
+    </div>
+    
+</body>
+</html>
