@@ -1,0 +1,12 @@
+.btn{
+    border-radius: 5rem;
+}
+
+.btn-primary{
+    background-color: purple;
+    border-color:purple;
+}
+
+.text-primary{
+    color:purple!important;
+}
